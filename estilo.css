@@ -1,0 +1,86 @@
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+header{
+    display: flex;
+    border: 2px solid black;
+}
+
+header li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+header a{
+    color: black;
+    font-size: larger;
+}
+
+header img{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.banner img{
+    margin-top: 30px;
+}
+
+div{
+    margin: 30px;
+    
+}
+
+.destaques{
+    width: 300px;
+    height: 350px;
+    border: 2px solid black;
+    font-size: x-large;
+    
+}
+
+.destaques h1{
+    margin-left: 30px;
+}
+
+.galeria{
+border: 2px solid black;
+width: 400px;
+height: 200px;
+}
+
+.cronograma{
+border: 2px solid black;
+width: 300px;
+height: 350px;
+}
+
+.olimpiada{
+border: 2px solid black;
+width: 400px;
+height: 200px;
+}
+
+.olimpiada h1{
+    margin-left: 15px;
+}
+
+.olimpiada h2{
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.categorias{
+border: 2px solid black;
+width: 500px;
+height: 500px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
